@@ -1,0 +1,65 @@
+     body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+     }
+     .nav{
+        margin: 0;
+        padding: 20px 30px 20px 45px;
+     }
+     img{
+        float: left;
+        height: 28px;
+        width: 48px;
+     }
+    .navbars, .navlogo{
+        display: inline;
+     }
+    .navbars{
+        padding: 5% 0% 5% 48%;
+    }
+    .navbarlist{
+        display: inline;
+     }
+    .navlink{
+        padding: 0px 20px 2px 20px;
+        text-decoration: none;
+        color: #323f4b;
+     }
+    .vr{
+        background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+        background-size: cover;
+        background-attachment:scroll;
+        padding: 20%;
+        text-align: center;
+        color: aliceblue;
+    }
+    .but{
+        background-color:#1a2137;
+        color: aliceblue;
+        border-radius: 5px;
+        border-style: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    @media screen and (min-width:576px) and (max-width:578px) , (max-width:768px){
+        .nav{
+            padding-left: 10px;
+        }
+        .navlink{
+            padding: 5px 20px 5px 5px;
+        }
+        .navbars{
+           display: block;
+           padding: 5% 0% 0% 0%;
+        }
+        .navlink{
+            list-style-type: none;
+            display: block;
+        }
+        .vr{
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+            background-size: 300%;
+            background-repeat: no-repeat;
+            padding: 35% 10%;
+        }
+    }
